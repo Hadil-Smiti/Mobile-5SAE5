@@ -1,0 +1,188 @@
+<resources>
+    <string-array name="language_options">
+        <item>fr</item>
+        <item>en</item>
+        <item>ar</item>
+        <!-- Ajouter d'autres langues ici -->
+    </string-array>
+    <string name="_24x7_healthcare">Santé 24h/24</string>
+    <string name="login">Se connecter</string>
+    <string name="username">Nom dutilisateur</string>
+    <string name="Login">Se connecter</string>
+    <string name="register_for_new_user">Sinscrire pour un nouvel utilisateur</string>
+    <string name="registration">Inscription</string>
+    <string name="already_have_an_account">Vous avez déjà un compte ?</string>
+    <string name="lab_test">TEST DE LABORATOIRE</string>
+    <string name="buy_medicine">ACHETER DES MÉDICAMENTS</string>
+    <string name="find_doctor">TROUVER UN MÉDECIN</string>
+    <string name="health_articles">ARTICLES DE SANTÉ</string>
+    <string name="order_details">DÉTAILS DE LA COMMANDE</string>
+    <string name="log_out">SE DÉCONNECTER</string>
+    <string name="top_doctors">Meilleurs Médecins</string>
+    <string name="family_physicians">Médecins de famille</string>
+    <string name="dietitian">DIÉTÉTICIEN</string>
+    <string name="dentist">DENTISTE</string>
+    <string name="surgeon">CHIRURGIEN</string>
+    <string name="cardiologist">CARDIOLOGUE</string>
+    <string name="back">Retour</string>
+    <string name="family_physician">Médecin de famille</string>
+    <string name="default_text">Texte par défaut</string>
+    <string name="textview">Vue texte</string>
+    <string name="book_appintment">Prendre un rendez-vous</string>
+    <string name="_10_00">10:00</string>
+    <string name="fees">Frais</string>
+    <string name="_28_10_2022">28/10/2022</string>
+    <string name="select_date">Sélectionner une date</string>
+    <string name="address" translatable="false">Adresse</string>
+    <string name="contact_number" translatable="false">Numéro de contact</string>
+    <string name="select_time" translatable="false">Sélectionner lheure</string>
+    <string name="full_name" translatable="false">Nom complet</string>
+    <string name="book_appointment" translatable="false">Prendre un rendez-vous</string>
+    <string name="deliver_location_kolhoapur" translatable="false">Lieu de livraison : Kolhoapur</string>
+    <string name="go_to_cart" translatable="false">Aller au panier</string>
+    <string name="lab_test_and_package" translatable="false">Test de laboratoire et forfait</string>
+    <string name="deliver_location_kolhapur" translatable="false">Lieu de livraison : Kolhapur</string>
+    <string name="hi_nhello" translatable="false">Bonjour \nSalut</string>
+    <string name="checkout" translatable="false">Payer</string>
+    <string name="total_cost_1298" translatable="false">Coût total : 1298/-</string>
+    <string name="select_time1" translatable="false">Sélectionner lheure</string>
+    <string name="register">Register</string>
+    <string name="please_fill_all_details_for_booking" translatable="false">Veuillez remplir tous les détails pour la réservation</string>
+    <string name="full_name1" translatable="false">Nom complet</string>
+    <string name="address1" translatable="false">Adresse</string>
+    <string name="pin_code" translatable="false">Code postal</string>
+    <string name="contact_number1" translatable="false">Numéro de contact</string>
+    <string name="book" translatable="false">Réserver</string>
+    <string name="order_details1" translatable="false">DÉTAILS DE LA COMMANDE</string>
+    <string name="buy_medicine1" translatable="false">Acheter des médicaments</string>
+    <string name="add_to_cart" translatable="false">Ajouter au panier</string>
+    <string name="select_deliver_date" translatable="false">Sélectionner la date de livraison</string>
+
+    <string name="app_name">HealthLink</string>
+    <string name="loading" translatable="false">Loading...</string>
+    <string name="msg_vous_avez_d_ja" translatable="false">You have already used HealthLink? Log in with one click.</string>
+
+    <string name="no_internet_connection">Pas de connexion internet!</string>
+    <!--TODO ENTREZ VOTRE APP ID CI-DESSOUS-->
+    <string name="facebook_app_id"/>
+    <string name="msg_r_servez_et_pla">Réservez et planifiez avec le médecin le plus proche</string>
+    <string name="lbl_m_decins">Médecins</string>
+
+    <string name="lbl_sp_cialit_s">Spécialités</string>
+
+    <!--TODO ENTREZ VOTRE APP ID CI-DESSOUS (ex: fb0123456789)-->
+    <string name="fb_login_protocol_scheme">fb</string>
+    <!--TODO ENTREZ VOTRE JETON CLIENT CI-DESSOUS-->
+    <string name="facebook_client_token"/>
+    <string name="msg_mot_de_passe_ou">Mot de passe oublié ?</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_nom">Nom</string>
+    <string name="lbl_prenom">Prénom</string>
+    <string name="lbl_privacypolicy">Politique de confidentialité</string>
+    <string name="lbl_cardiologue">Cardiologue</string>
+    <string name="lbl_se_connecter2">se connecter</string>
+    <string name="lbl_questions">Questions</string>
+    <string name="msg_by_logging_you2">En vous connectant, vous acceptez notre</string>
+    <string name="lbl_or_sign_in_with">Ou bien s’inscrire avec :</string>
+    <string name="lbl_healthlink">HealthLink</string>
+    <string name="lbl_s_inscrire">S’inscrire</string>
+    <string name="msg_otp_verificatio">Vérification OTP</string>
+    <string name="lbl_s_inscrire2">s’inscrire</string>
+    <string name="lbl_specialites">Spécialités</string>
+    <string name="lbl_neurologue">Neurologue</string>
+    <string name="msg_vous_avez_deja">Vous avez déjà utilisé HealthLink ?
+Connectez-vous en un seul clic.</string>
+    <string name="lbl_health">Santé</string>
+    <string name="msg_verifiez_le_cod">Vérifiez le code reçu sur votre numéro de téléphone :</string>
+    <string name="lbl_se">Se</string>
+    <string name="lbl_verifier">Vérifier</string>
+    <string name="msg_nouveau_sur_hea">Nouveau sur HealthLink ?
+Inscrivez-vous en un seul clic et profitez de votre plateforme.</string>
+    <string name="msg_reservez_et_pla">Réservez et planifiez avec le médecin le plus proche</string>
+    <string name="lbl_see_all">Voir tout</string>
+    <string name="lbl_se_connecter">Se connecter</string>
+    <string name="lbl_medicaments">Médicaments</string>
+    <string name="lbl_pharmacies">Pharmacies</string>
+    <string name="lbl_generaliste">Généraliste</string>
+    <string name="lbl_password">Mot de passe</string>
+    <string name="msg_by_logging_you">En vous connectant, vous acceptez nos Termes et Conditions ainsi que notre Politique de confidentialité.</string>
+    <string name="lbl_pediatre">Pédiatre</string>
+    <string name="lbl_connecter">connecter</string>
+    <string name="lbl_pneumologue">Pneumologue</string>
+    <string name="lbl_and">et</string>
+    <string name="lbl_medecins">Médecins</string>
+    <string name="lbl">_____</string>
+    <string name="lbl_dentiste">Dentiste</string>
+    <string name="lbl_link">Lien</string>
+    <string name="msg_terms_conditi">Termes et Conditions</string>
+    <string name="lbl_consulter">Consulter</string>
+    <string name="lbl_remember_me">Se souvenir de moi</string>
+    <string name="lbl_your_number">Numéro de téléphone</string>
+    <string name="msg_please_enter_valid_pa">Veuillez entrer un mot de passe valide</string>
+    <string name="msg_please_enter_valid_email">Veuillez entrer un email valide</string>
+    <string name="forget_password">Veuillez saisir votre numéro de téléphone :</string>
+    <string name="txtForget">Récupérer votre compte</string>
+    <string name="txtSuivant">Suivant</string>
+    <string name="txtManageandsche">Suivez les étapes et découvrez la meilleure expérience E-Health avec nos médecins</string>
+    <string name="msg_best_doctor_app">Rejoignez nos médecins</string>
+    <string name="txtDoctor">Vous êtes un médecin ?</string>
+    <string name="txtProfile">Profil</string>
+    <string name="txtRdv">Mes consultations</string>
+    <string name="txtDossie">Dossier médical</string>
+    <string name="txtInfos">Mes informations personnelles</string>
+    <string name="home">Accueil</string>
+    <string name="profile">Profil</string>
+    <string name="txtchanger">Enregistrer</string>
+    <string name="txtDoctors">Médecins</string>
+    <string name="create_prescription">Créer ordonnance</string>
+    <string name="TXTpHARMACIES">Trouver une pharmacie</string>
+    <string name="mapbox_access_token" translatable="false"/>
+    <!-- TODO: Supprimer ou modifier ce texte de remplacement -->
+    <string name="hello_blank_fragment">Bonjour fragment vierge</string>
+    <string name="change_profile_picture">Changer la photo de profil</string>
+    <string name="get_started">Commencer</string>
+    <string name="welcome_back_to_esprit_clubs">Bienvenue à Health Care</string>
+    <string name="language">Langue</string>
+    <string name="system_mode_automatically_adjusts_appearance_based_on_your_device_settings">Le mode système ajuste automatiquement lapparence en fonction des paramètres de votre appareil.</string>
+    <string name="system_default">Système par défaut</string>
+    <string name="on">Activé</string>
+    <string name="off">Désactivé</string>
+    <string name="appearance">Apparence</string>
+    <string name="delete_saved_password">Supprimer le mot de passe enregistré</string>
+    <string name="security_settings">Paramètres de sécurité</string>
+    <string name="current_password">Mot de passe actuel</string>
+    <string name="enter_current_password">Entrez le mot de passe actuel</string>
+    <string name="new_password">Nouveau mot de passe</string>
+    <string name="enter_new_password">Entrez le nouveau mot de passe</string>
+    <string name="confirm_password">Confirmez le mot de passe</string>
+    <string name="re_enter_new_password">Ré-entrez le nouveau mot de passe</string>
+    <string name="apply">Appliquer</string>
+    <string name="birthday">Anniversaire</string>
+    <string name="Apply">Appliquer</string>
+    <string name="tell_something_about_yourself">Parlez-nous de vous</string>
+    <string name="about_me">À propos de moi</string>
+    <string name="enter_your_phone_number">Entrez votre numéro de téléphone</string>
+    <string name="phone_number">Numéro de téléphone</string>
+    <string name="enter_your_birthday">Entrez votre anniversaire</string>
+    <string name="gender">Genre </string>
+    <string name="enter_your_last_name">Entrez votre nom de famille</string>
+    <string name="last_name">Nom de famille </string>
+    <string name="enter_your_first_name">Entrez votre prénom</string>
+    <string name="first_name">Prénom </string>
+    <string name="enter_your_email">Entrez votre email</string>
+    <string name="email">Email </string>
+    <string name="x">X</string>
+    <string name="X">X</string>
+    <string name="cover_picture">Photo de couverture</string>
+    <string name="change_cover_photo">Changer la photo de couverture</string>
+    <string name="profile_picture">Photo de profil</string>
+    <string name="Email">Email</string>
+    <string name="Gender">Genre</string>
+    <string name="role">Rôle</string>
+    <string name="Birthday">Anniversaire</string>
+    <string name="edit_informations">Modifier</string>
+    <string name="personal_details">Détails personnels</string>
+    <string name="password">Mot de passe</string>
+    <string name="ordannances">Ordonnances</string>
+
+</resources>

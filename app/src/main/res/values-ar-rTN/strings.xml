@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HealthLink</string>
+    <string name="_24x7_healthcare">الرعاية الصحية على مدار الساعة</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="Login">تسجيل الدخول</string>
+    <string name="register_for_new_user">تسجيل مستخدم جديد</string>
+    <string name="registration">التسجيل</string>
+    <string name="register">تسجيل</string>
+    <string name="already_have_an_account">هل لديك حساب بالفعل؟</string>
+    <string name="lab_test">اختبار مختبر</string>
+    <string name="buy_medicine">شراء الأدوية</string>
+    <string name="find_doctor">ابحث عن طبيب</string>
+    <string name="health_articles">مقالات صحية</string>
+    <string name="order_details">تفاصيل الطلب</string>
+    <string name="log_out">تسجيل الخروج</string>
+    <string name="top_doctors">أفضل الأطباء</string>
+    <string name="family_physicians">أطباء الأسرة</string>
+    <string name="dietitian">أخصائي تغذية</string>
+    <string name="dentist">طبيب أسنان</string>
+    <string name="surgeon">جراح</string>
+    <string name="cardiologist">أخصائي قلب</string>
+    <string name="back">عودة</string>
+    <string name="family_physician">طبيب الأسرة</string>
+    <string name="default_text">نص افتراضي</string>
+    <string name="textview">عرض النص</string>
+    <string name="book_appintment">حجز موعد</string>
+    <string name="_10_00">10:00</string>
+    <string name="fees">الرسوم</string>
+    <string name="_28_10_2022">28/10/2022</string>
+    <string name="select_date"/>
+
+    <string name="no_internet_connection">لا يوجد اتصال بالإنترنت!</string>
+    <!--TODO ENTER YOUR APP ID BELOW-->
+    <string name="facebook_app_id"/>
+    <!--TODO ENTER YOUR APP ID BELOW (eg: fb0123456789)-->
+    <string name="fb_login_protocol_scheme">fb</string>
+    <!--TODO ENTER YOUR Client Token BELOW-->
+    <string name="facebook_client_token"/>
+    <string name="msg_mot_de_passe_ou">هل نسيت كلمة المرور؟</string>
+    <string name="lbl_email">البريد الإلكتروني</string>
+    <string name="lbl_nom">الاسم</string>
+    <string name="lbl_prenom">الاسم الأول</string>
+    <string name="lbl_privacypolicy">سياسة الخصوصية</string>
+    <string name="lbl_cardiologue">طبيب قلب</string>
+    <string name="lbl_se_connecter2">تسجيل الدخول</string>
+    <string name="lbl_questions">أسئلة</string>
+    <string name="msg_by_logging_you2">بالتسجيل، أنت توافق على</string>
+    <string name="lbl_or_sign_in_with">أو التسجيل باستخدام:</string>
+    <string name="lbl_healthlink">HealthLink</string>
+    <string name="lbl_s_inscrire">تسجيل</string>
+    <string name="msg_otp_verificatio">التحقق من OTP</string>
+    <string name="lbl_s_inscrire2">تسجيل</string>
+    <string name="lbl_specialites">التخصصات</string>
+    <string name="lbl_neurologue">طبيب أعصاب</string>
+    <string name="msg_r_servez_et_pla">احجز وجدول مع أقرب طبيب</string>
+    <string name="lbl_m_decins">الأطباء</string>
+    <string name="lbl_sp_cialit_s">التخصصات</string>
+
+    <string name="lbl_health">الصحة</string>
+    <string name="msg_verifiez_le_cod">تحقق من الرمز المستلم على رقم هاتفك:</string>
+    <string name="lbl_se">التسجيل</string>
+    <string name="lbl_verifier">تحقق</string>
+    <string name="msg_nouveau_sur_hea">جديد في HealthLink؟ سجل بنقرة واحدة واستمتع بمنصتك.</string>
+    <string name="msg_reservez_et_pla">احجز وجدول مع أقرب طبيب</string>
+    <string name="lbl_see_all">عرض الكل</string>
+    <string name="lbl_se_connecter">تسجيل الدخول
+    </string><string name="msg_vous_avez_deja">هل استخدمت HealthLink من قبل؟ سجل الدخول بنقرة واحدة.</string>
+
+
+    <string name="lbl_medicaments">أدوية</string>
+    <string name="lbl_pharmacies">صيدليات</string>
+    <string name="lbl_generaliste">طبيب عام</string>
+    <string name="lbl_password">كلمة المرور</string>
+    <string name="msg_by_logging_you">بالتسجيل، أنت توافق على شروطنا وسياسة الخصوصية.</string>
+    <string name="lbl_pediatre">طبيب أطفال</string>
+    <string name="lbl_connecter">اتصال</string>
+    <string name="lbl_pneumologue">طبيب رئة</string>
+    <string name="lbl_and">و</string>
+    <string name="lbl_medecins">أطباء</string>
+    <string name="lbl">_____</string>
+    <string name="lbl_dentiste">طبيب الأسنان</string>
+    <string name="lbl_link">رابط</string>
+    <string name="msg_terms_conditi">الشروط والأحكام</string>
+    <string name="lbl_consulter">استشارة</string>
+    <string name="lbl_remember_me">تذكرني</string>
+    <string name="lbl_your_number">رقم الهاتف</string>
+    <string name="msg_please_enter_valid_pa">يرجى إدخال كلمة مرور صالحة</string>
+    <string name="msg_please_enter_valid_email">يرجى إدخال بريد إلكتروني صالح</string>
+    <string name="forget_password">يرجى إدخال رقم هاتفك:</string>
+    <string name="txtForget">استعادة حسابك</string>
+    <string name="txtSuivant">التالي</string>
+    <string name="txtManageandsche">اتبع الخطوات واكتشف أفضل تجربة E-Health مع أطبائنا</string>
+    <string name="msg_best_doctor_app">انضم إلى أطبائنا</string>
+    <string name="txtDoctor">هل أنت طبيب؟</string>
+    <string name="txtProfile">الملف الشخصي</string>
+    <string name="txtRdv">استشاراتي</string>
+    <string name="txtDossie">الملف الطبي</string>
+    <string name="txtInfos">معلوماتي الشخصية</string>
+    <string name="home">الرئيسية</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="txtchanger">حفظ</string>
+    <string name="ordannances">وصفاتي الطبية</string>
+    <string name="txtDoctors">الأطباء</string>
+    <string name="create_prescription">إنشاء وصفة طبية</string>
+    <string name="TXTpHARMACIES">ابحث عن صيدلية</string>
+    <string name="mapbox_access_token" translatable="false"/>
+    <string name="change_profile_picture">تغيير صورة الملف الشخصي</string>
+    <string name="hello_blank_fragment">مرحبًا بالمكون الفارغ</string>
+    <string name="get_started">ابدأ الآن</string>
+    <string name="welcome_back_to_esprit_clubs">مرحبًا بعودتك إلى Health Care</string>
+    <string name="language">اللغة</string>
+    <string name="system_mode_automatically_adjusts_appearance_based_on_your_device_settings">
+        يقوم وضع النظام تلقائيًا بتعديل المظهر بناءً على إعدادات جهازك.
+    </string>
+    <string name="system_default">الإعدادات الافتراضية للنظام</string>
+    <string name="on">تشغيل</string>
+    <string name="off">إيقاف</string>
+    <string name="appearance">المظهر</string>
+    <string name="delete_saved_password">حذف كلمة المرور المحفوظة</string>
+    <string name="security_settings">إعدادات الأمان</string>
+    <string name="current_password">كلمة المرور الحالية</string>
+    <string name="enter_current_password">أدخل كلمة المرور الحالية</string>
+    <string name="new_password">كلمة المرور الجديدة</string>
+    <string name="enter_new_password">أدخل كلمة المرور الجديدة</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="re_enter_new_password">أعد إدخال كلمة المرور الجديدة</string>
+    <string name="apply">تطبيق</string>
+    <string name="birthday">تاريخ الميلاد</string>
+    <string name="tell_something_about_yourself">أخبر شيئًا عن نفسك</string>
+    <string name="about_me">عني</string>
+    <string name="enter_your_phone_number">أدخل رقم هاتفك</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="enter_your_birthday">أدخل تاريخ ميلادك</string>
+    <string name="gender">الجنس</string>
+    <string name="enter_your_last_name">أدخل اسم عائلتك</string>
+    <string name="last_name">اللقب </string>
+    <string name="enter_your_first_name">أدخل اسمك الأول</string>
+    <string name="first_name">الاسم الأول</string>
+    <string name="enter_your_email">أدخل بريدك الإلكتروني</string>
+    <string name="email">البريد الإلكتروني </string>
+    <string name="x">X</string>
+    <string name="X">X</string>
+    <string name="Apply">تطبيق</string>
+    <string name="role">الدور</string>
+    <string name="cover_picture">صورة الغلاف</string>
+    <string name="change_cover_photo">تغيير صورة الغلاف</string>
+    <string name="profile_picture">صورة الملف الشخصي</string>
+    <string name="Email">البريد الإلكتروني</string>
+    <string name="Gender">الجنس</string>
+    <string name="Birthday">تاريخ الميلاد</string>
+    <string name="edit_informations">قم بتحرير معلوماتك هنا</string>
+    <string name="personal_details">تفاصيل شخصية</string>
+    <string name="password">كلمة المرور</string>
+
+</resources>

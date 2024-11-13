@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.hadil.main.SignUpFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        style="@style/groupStylegray_300_1"
+        android:alpha="0.97"
+        android:paddingBottom="32dp">
+
+        <!-- Title of the form -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:text="Health Care "
+            android:textColor="@color/darker_grey"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"
+            android:text="Sign up to join Health Care community"
+            android:textColor="@color/darker_grey"
+            android:textSize="16sp" />
+
+        <!-- Separator Line -->
+        <View
+            android:id="@+id/separator"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ACA1A1"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Email Field -->
+        <EditText
+            android:id="@+id/email_field"
+            style="@style/etSolidRoundedOutline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textSize="16sp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/rectangle_bg_white_a700_border_gray_200_radius_16"
+            android:layout_marginBottom="16dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColorHint="@color/dark_grey"
+            android:paddingStart="20dp"
+            android:paddingTop="19dp"
+            android:paddingEnd="30dp"
+            android:paddingBottom="18dp" />
+
+        <!-- First Name Field -->
+        <EditText
+            android:id="@+id/first_name_field"
+            style="@style/etSolidRoundedOutline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First Name"
+            android:textSize="16sp"
+            android:background="@drawable/rectangle_bg_white_a700_border_gray_200_radius_16"
+            android:layout_marginBottom="16dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColorHint="@color/dark_grey"
+            android:paddingStart="20dp"
+            android:paddingTop="19dp"
+            android:paddingEnd="30dp"
+            android:paddingBottom="18dp" />
+
+        <!-- Last Name Field -->
+        <EditText
+            android:id="@+id/last_name_field"
+            style="@style/etSolidRoundedOutline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last Name"
+            android:textSize="16sp"
+            android:background="@drawable/rectangle_bg_white_a700_border_gray_200_radius_16"
+            android:layout_marginBottom="16dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColorHint="@color/dark_grey"
+            android:paddingStart="20dp"
+            android:paddingTop="19dp"
+            android:paddingEnd="30dp"
+            android:paddingBottom="18dp" />
+
+        <!-- Gender Field -->
+        <TextView
+            android:id="@+id/gender_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textSize="18sp"
+            android:layout_marginRight="150dp"
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/gender_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+            <RadioButton
+                android:shadowColor="@color/dark_grey"
+
+                android:id="@+id/gender_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textSize="16sp" />
+            <RadioButton
+                android:id="@+id/gender_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <!-- Password Fields -->
+        <EditText
+            android:id="@+id/password_field"
+            style="@style/etSolidRoundedOutline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textSize="16sp"
+            android:inputType="textPassword"
+            android:background="@drawable/rectangle_bg_white_a700_border_gray_200_radius_16"
+            android:layout_marginBottom="10dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColorHint="@color/dark_grey"
+            android:paddingStart="20dp"
+            android:paddingTop="19dp"
+            android:paddingEnd="30dp"
+            android:paddingBottom="18dp" />
+
+        <EditText
+            android:id="@+id/confirm_password_field"
+            style="@style/etSolidRoundedOutline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:textSize="16sp"
+            android:inputType="textPassword"
+            android:background="@drawable/rectangle_bg_white_a700_border_gray_200_radius_16"
+            android:layout_marginBottom="24dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColorHint="@color/dark_grey"
+            android:paddingStart="20dp"
+            android:paddingTop="19dp"
+            android:paddingEnd="30dp"
+            android:paddingBottom="18dp" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_shape"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Terms and Policy Texts -->
+        <TextView
+            android:id="@+id/terms_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="By signing up, you agree to our"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/privacy_policy_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terms and Privacy Policy."
+            android:textColor="@color/blue"/>
+
+        <!-- Return Button -->
+        <Button
+            android:id="@+id/returnfromsignuptologin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_shape"
+            android:text="Return"
+            android:drawableLeft="@drawable/arrow_back_24"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

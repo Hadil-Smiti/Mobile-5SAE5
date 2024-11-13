@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.hadil.main.WelcomeFragment">
+
+
+
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearOnboarding"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            style="@style/groupStylegray_300_1">
+            <ImageView
+                android:id="@+id/toolbarToolbar"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginStart="@dimen/_69pxh"
+                android:layout_marginEnd="@dimen/_69pxh"
+                android:gravity="start"
+                android:src="@drawable/logoo" />
+            <FrameLayout android:gravity="start"
+                android:id="@+id/frameStackgroupOne"
+                android:layout_height="@dimen/_526pxv"
+                android:layout_marginTop="@dimen/_18pxv" android:layout_width="match_parent">
+
+                <ImageView android:id="@+id/imageGroupOne"
+                    android:layout_gravity="top|start"
+                    android:layout_height="@dimen/_443pxh"
+                    android:layout_marginBottom="@dimen/_11pxv"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:layout_marginTop="@dimen/_11pxv"
+                    android:layout_width="@dimen/_336pxh"
+                    android:scaleType="fitXY"
+                    tools:ignore="ContentDescription" android:src="@drawable/img_group_blue_a400"/>
+
+                <FrameLayout android:id="@+id/frameStacklineareffect"
+                    android:layout_gravity="top|start"
+                    android:layout_height="@dimen/_491pxv"
+                    android:layout_marginBottom="@dimen/_10pxv" android:layout_width="match_parent">
+                    <ImageView android:id="@+id/imageImageTwo"
+                        android:layout_gravity="start"
+                        android:layout_height="@dimen/_491pxh"
+                        android:layout_width="match_parent"
+                        android:scaleType="fitXY"
+
+                        tools:ignore="ContentDescription" android:src="@drawable/img_image_491x375"/>
+                    <View
+                        android:background="@drawable/rectangle_gradient_s_gray_300_00_e_gray_300"
+                        android:id="@+id/viewLinearEffect"
+                        android:layout_gravity="bottom|start"
+                        android:layout_height="@dimen/_239pxv"
+                        android:layout_marginTop="@dimen/_10pxv" android:layout_width="@dimen/_375pxh"/>
+                </FrameLayout>
+                <LinearLayout android:id="@+id/linearColumnbestdoctorapp"
+                    android:layout_gravity="bottom|center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_41pxh"
+                    android:layout_marginStart="@dimen/_41pxh"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="match_parent" android:orientation="vertical">
+                    <TextView android:gravity="center_horizontal"
+                        android:id="@+id/txtBestDoctorApp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_5pxh"
+                        android:layout_marginStart="@dimen/_4pxh"
+                        android:layout_width="match_parent"
+
+                        style="@style/txtInterbold32" android:text="@string/msg_best_doctor_app"/>
+                    <TextView android:id="@+id/txtManageandsche"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_13pxv"
+                        android:layout_width="match_parent"
+                        android:text="@string/txtManageandsche"
+                        />
+                </LinearLayout>
+            </FrameLayout>
+            <androidx.appcompat.widget.AppCompatButton
+                android:ellipsize="end" android:gravity="center"
+                android:id="@+id/getStartedButton"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_20pxv"
+                android:layout_marginEnd="@dimen/_32pxh"
+                android:layout_marginStart="@dimen/_32pxh"
+                android:layout_marginTop="@dimen/_31pxv"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_16pxv"
+                android:paddingEnd="@dimen/_30pxh"
+                android:paddingStart="@dimen/_30pxh"
+                android:paddingTop="@dimen/_16pxv" android:singleLine="true"
+                android:textAllCaps="false"
+                style="@style/btnSolidRoundedOutline" android:text="@string/lbl_s_inscrire"/>
+        </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_400"
+    android:padding="16dp"
+    tools:context=".fragments.hadil.user.UserSettingsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp">
+
+            <!-- Clear Cache / Delete Saved Password Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/security_settings"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="12dp"
+                android:paddingStart="8dp"/>
+
+            <Button
+                android:id="@+id/clearCacheButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/delete_saved_password"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_shape"
+                android:layout_marginBottom="24dp"
+                android:padding="14dp"
+                android:layout_gravity="center"/>
+
+            <!-- Dark Mode Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/appearance"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="12dp"
+                android:paddingStart="8dp"/>
+
+            <RadioGroup
+                android:id="@+id/darkModeRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="24dp">
+
+                <RadioButton
+                    android:id="@+id/darkModeOff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/off"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:paddingEnd="16dp"/>
+
+                <RadioButton
+                    android:id="@+id/darkModeOn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/on"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:paddingEnd="16dp"/>
+
+                <RadioButton
+                    android:id="@+id/darkModeSystem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/system_default"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:paddingEnd="16dp"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/system_mode_automatically_adjusts_appearance_based_on_your_device_settings"
+                android:textSize="12sp"
+                android:textColor="@color/dark_grey"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="8dp"/>
+
+            <!-- Language Selection Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/language"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="12dp"
+                android:paddingStart="8dp"/>
+
+            <Spinner
+                android:id="@+id/languageSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:entries="@array/language_options"
+                android:padding="12dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
