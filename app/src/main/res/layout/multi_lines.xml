@@ -14,19 +14,22 @@
         android:textColor="#fff"
         android:textSize="16sp"
         android:textStyle="italic"/>
+
     <TextView
-            android:id="@+id/line_b"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/textview"
-            android:textColor="#fff000"
-            android:textSize="14sp"
-            android:textStyle="italic"/>
+        android:id="@+id/line_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+        android:textColor="#fff000"
+        android:textSize="14sp"
+        android:textStyle="italic"/>
+
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:weightSum="1"
-        android:layout_height="wrap_content">
+        android:weightSum="1">
+
         <TextView
             android:id="@+id/line_c"
             android:layout_width="0dp"
@@ -35,6 +38,7 @@
             android:text="@string/textview"
             android:textColor="#ffff66"
             android:textSize="12sp"/>
+
         <TextView
             android:id="@+id/line_d"
             android:layout_width="0dp"
@@ -43,6 +47,7 @@
             android:text="@string/textview"
             android:textColor="#ffff66"
             android:textSize="12sp"/>
+
         <TextView
             android:id="@+id/line_e"
             android:layout_width="0dp"
@@ -52,5 +57,14 @@
             android:textColor="#ffff66"
             android:textSize="12sp"/>
 
+        <!-- Trash Icon -->
+        <ImageView
+            android:id="@+id/trash_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:src="@android:drawable/ic_delete"
+            android:contentDescription="Delete Item"
+            android:padding="4dp"/>
     </LinearLayout>
 </LinearLayout>

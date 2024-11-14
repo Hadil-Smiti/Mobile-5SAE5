@@ -1,12 +1,15 @@
 package com.example.healthcare;
 
+import android.app.AlertDialog;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
@@ -70,6 +73,10 @@ public class BuyMedicineActivity extends AppCompatActivity {
     }
 
 
+    private void deleteMedicine(String medicineName) {
+        db.removeCart("default_user", medicineName);
+        refreshListView();
+    }
 
 
     private void refreshListView() {
@@ -82,9 +89,41 @@ public class BuyMedicineActivity extends AppCompatActivity {
             item.put("line5", "Total Cost: " + parts[1] + "/-");
             list.add(item);
         }
+
         sa = new SimpleAdapter(this, list, R.layout.multi_lines,
                 new String[]{"line1", "line5"},
-                new int[]{R.id.line_a, R.id.line_e});
+                new int[]{R.id.line_a, R.id.line_e}) {
+
+            @Override
+            public View getView(int position, View convertView, ViewGroup parent) {
+                View view = super.getView(position, convertView, parent);
+                ImageView trashIcon = view.findViewById(R.id.trash_icon);
+
+                // Set OnClickListener for the trash icon
+                trashIcon.setOnClickListener(v -> {
+                    HashMap<String, String> selectedItem = (HashMap<String, String>) list.get(position);
+                    String medicineName = selectedItem.get("line1");
+                    showConfirmationDialog(medicineName);
+                });
+
+                return view;
+            }
+        };
+
         lst.setAdapter(sa);
     }
+    private void showConfirmationDialog(String medicineName) {
+        new AlertDialog.Builder(this)
+                .setTitle("Delete Medicine")
+                .setMessage("Are you sure you want to delete " + medicineName + " from the list?")
+                .setIcon(android.R.drawable.ic_dialog_alert)
+                .setPositiveButton("Yes", (dialog, which) -> {
+                    deleteMedicine(medicineName);
+                })
+                .setNegativeButton("No", (dialog, which) -> {
+                    dialog.dismiss();
+                })
+                .show();
+    }
+
 }

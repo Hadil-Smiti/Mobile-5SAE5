@@ -28,6 +28,7 @@ public class Database extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
 
     }
+
     public void register(String username , String email, String password){
         ContentValues cv = new ContentValues();
         cv.put("username" , username);
@@ -73,14 +74,13 @@ public class Database extends SQLiteOpenHelper {
         db.close();
         return result;
     }
-    public void removeCart(String username, String otype){
-        String str[] = new String[2];
-        str[0]= username;
-        str[1]= otype;
+    public void removeCart(String username, String product) {
         SQLiteDatabase db = getWritableDatabase();
-        db.delete("cart","username = ? and otype = ?",str);
+        String[] args = {username, product};
+        db.delete("cart", "username = ? AND product = ?", args);
         db.close();
     }
+
 
 
 

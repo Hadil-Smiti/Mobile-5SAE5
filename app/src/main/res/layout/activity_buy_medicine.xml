@@ -10,7 +10,6 @@
         android:id="@+id/textView_Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:text="@string/_24x7_healthcare"
         android:textColor="@color/teal_200"
         android:textSize="34sp"
@@ -29,8 +28,7 @@
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@id/textView_Title"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="8dp" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
         android:id="@+id/textViewLTDTitle"
@@ -42,8 +40,7 @@
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@id/textViewODTitle"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="8dp" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <ListView
         android:id="@+id/listViewDD"
@@ -55,7 +52,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toTopOf="@id/inputLayout" />
 
-    <!-- Input and Action Buttons Layout -->
     <LinearLayout
         android:id="@+id/inputLayout"
         android:layout_width="0dp"
@@ -71,57 +67,36 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Medicine Name"
-            android:inputType="text"
-            android:padding="8dp"
-            android:background="@drawable/edit_text_bg" />
+            android:inputType="text" />
 
         <EditText
             android:id="@+id/editTextMedicinePrice"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Medicine Price"
-            android:inputType="numberDecimal"
-            android:padding="8dp"
-            android:background="@drawable/edit_text_bg"
-            android:layout_marginTop="8dp" />
+            android:inputType="numberDecimal" />
 
         <Button
             android:id="@+id/buttonAddMedicine"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Add Medicine"
-            android:layout_marginTop="8dp"
-            android:backgroundTint="@color/purpleDark"
-            android:textColor="@color/colorWhite" />
-
-
+            android:text="Add Medicine" />
     </LinearLayout>
 
     <Button
         android:id="@+id/buttonBMBack"
-        android:layout_width="111dp"
-        android:layout_height="54dp"
-        android:layout_marginBottom="36dp"
-        android:background="@drawable/btn_bg"
-        android:backgroundTint="@color/purpleDark"
-        android:text="@string/back"
-        android:textColor="@color/colorWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.893"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/buttonLTDAddToCart"
-        android:layout_width="143dp"
-        android:layout_height="54dp"
-        android:layout_marginBottom="36dp"
-        android:background="@drawable/btn_bg"
-        android:backgroundTint="@color/purpleDark"
-        android:text="@string/go_to_cart"
-        android:textColor="@color/colorWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Cart"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.119"
         app:layout_constraintStart_toStartOf="parent" />
+
 </android.support.constraint.ConstraintLayout>
